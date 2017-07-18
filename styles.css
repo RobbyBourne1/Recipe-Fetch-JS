@@ -1,0 +1,41 @@
+img {
+  width: 15em;
+  height: 8em;
+  margin: .5em;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 100%;
+  margin: .5em;
+}
+
+a {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+p {
+  padding: 0;
+  margin: .5em;
+  font-size: .75em;
+  text-decoration: none;
+}
+
+a > span {
+  position: relative;
+  bottom: -8em;
+  left: -3em;
+  letter-spacing: 1px;
+  color: #f2f1e8;
+  background-color: #696666;
+  padding: .25em;
+  width: 9em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
